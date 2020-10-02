@@ -4,11 +4,12 @@
 
 
 ## What are Sat solvers? 
-SAT solvers are programs that solve the Boolean satisfiability problem from Boolean logic. You are given a logical expression in which the variables are either `true` or `false` and are combined with logical connectives **AND**, **OR**, and **NOT**. The question is: can you find an assignment of `true` and `false` values to the variables which makes the Boolean formula `true`?
+SAT solvers are programs that solve the Boolean satisfiability problem from Boolean logic. You are given a logical expression in which the variables are either `true` or `false` and are combined with logical connectives **AND**, **OR**, and **NOT**. The question is: can you find an assignment of true and false values to the variables which makes the Boolean formula true?
 The Boolean formula is either called satisfiable (SAT) or unsatisfiable (UNSAT).
 
 For example: 
 > (x1 ∧ x2) ∨ ¬x1 is satisfiable because if x1 is `false` then the boolean formula evaluates to `true`
+
 > (x1 ∧ ¬x1) is unsatisfiable because no value of x1 can make the formula `true`
 
 Many Constraint Satisfaction Problems (CSP) in Artificial Intelligence and Operational Research can be formulated and solved as Boolean Satisfiability Problem.
