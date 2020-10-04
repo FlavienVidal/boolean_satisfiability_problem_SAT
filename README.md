@@ -20,7 +20,9 @@ In a CSP, there is a set of variables and a set of constraints. The variables mu
 This problem can be solved using methods based on Satisfiability (SAT). 
 
 ![australian_states](australian_states.png)
-<img src="https://github.com/FlavienVidal/boolean_satisfiability_problem_SAT/blob/main/australian_states.png" width="8">
+<img src="https://github.com/FlavienVidal/boolean_satisfiability_problem_SAT/blob/main/australian_states.png" height="8">
+![australian_states](australian_states.png)
+<a href="url"><img src="https://github.com/FlavienVidal/boolean_satisfiability_problem_SAT/blob/main/australian_states.png" align="left" height="12" ></a>
 
 We wish to color a map of Australia as shown above. The map is made up of seven different states. Coloring this map means to assign a color to each vertex of its correponding graph with the restriction that two adjacent vertices have a different color.
 
