@@ -28,7 +28,7 @@ If a is a variable in A then a and ¬a are called literals over A.
 A clause C over A is a set of literals over A. It represents the disjunction of the literals, and is valid (or satisfied) under a truth assignment if and only if at least one of its literals is true under the assignment. It is invalid (or unsatisfied) under the truth assignment if every literal in it is false under the assignment. 
 A set C of clauses over A is satisfiable if there exist a truth assignment for A such that every clause in C is valid under the assignment. In the Satisfiability Problem (SAT) we are required to determine whether a given set C of clauses is satisfiable. In SAT the clauses represent the constraints to be satisfied when assigning truth-values to the Boolean variables. In SAT, the number of literals in a clause can vary.
 
-``
+```
 Vertices = {wa, or, ca, nv, id, az, ut, mt, wy, co, nm, tx, ok, ks, ne, sd, nd, mn, ia, mo, ar, la, ms, al, ga, sc, nc, fl, tn, ky, va, wv, il, in, oh, pa, wi, mi, ny, vt, nh, me, ma, ri, ct, nj, de, md};
 
 NbEdges = 1..109;
