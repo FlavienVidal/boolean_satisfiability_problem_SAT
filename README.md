@@ -4,7 +4,7 @@
 
 
 ## What are Sat solvers? 
-SAT solvers are programs that solve the Boolean satisfiability problem from Boolean logic. You are given a logical expression in which the variables are either `true` or `false` and are combined with logical connectives **AND**, **OR**, and **NOT**. The question is: can you find an assignment of true and false values to the variables which makes the Boolean formula true?
+SAT solvers are programs that solve the Boolean satisfiability problem from Boolean logic. You are given a logical expression in which the variables are either `true` or `false` and are combined with logical connectives **and**, **or**, and **not**. The question is: can you find an assignment of true and false values to the variables which makes the Boolean formula true?
 The Boolean formula is either called satisfiable (SAT) or unsatisfiable (UNSAT).
 
 For example: 
@@ -13,18 +13,15 @@ For example:
 > (x1 ∧ ¬x1) is unsatisfiable because no value of x1 can make the formula `true`
 
 Many Constraint Satisfaction Problems (CSP) in Artificial Intelligence and Operational Research can be formulated and solved as Boolean Satisfiability Problem.
-In a CSP, there is a set of variables and a set of constraints. The variables must be assigned values from specified domains in such a way that all the given constraints are satisfied. An assignment of values to the variables that satisfies all the constraints yields a feasible solution. The objective is to find one feasible solution, or in some cases, all feasible solutions. Sometimes, it is possible to associate a measure of quality with a feasible solution. In such cases the objective might be to find the feasible solution of highest quality.
+Constraint Satisfaction Problems use a set of decision variables and a set of constraints. The values of the decision variables are unknown and it only once the program has been executed that they will be assigned values. It is possible to specify variables domains. To be a valid solution the decision variables must be assigned values from variables domains that satisfy the specified constraints. The objective is to find one valid solution, or in some cases, all valid solutions. 
 
 
-## The australian map coloring problem 
+## The United States map coloring problem 
 This problem can be solved using methods based on Satisfiability (SAT). 
 
-![australian_states](australian_states.png)
-<img src="https://github.com/FlavienVidal/boolean_satisfiability_problem_SAT/blob/main/australian_states.png" height="8">
-![australian_states](australian_states.png)
-<a href="url"><img src="https://github.com/FlavienVidal/boolean_satisfiability_problem_SAT/blob/main/australian_states.png" align="left" height="12" ></a>
+![united_states_colored_map](united_states_colored_map.png)
 
-We wish to color a map of Australia as shown above. The map is made up of seven different states. Coloring this map means to assign a color to each vertex of its correponding graph with the restriction that two adjacent vertices have a different color.
+We wish to color a map of the United States as shown above. The map is made up of 48 different states. Coloring this map means assigning a color to each vertex of its correponding graph with the restriction that two adjacent vertices have a different color.
 
 Let A = {a1, a2,..., an} be a set of n > 1 Boolean variables. 
 If a is a variable in A then a and ¬a are called literals over A. 
