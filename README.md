@@ -37,3 +37,58 @@ Edges1 = [wa, wa, or, or, or, id, id, id, id, ca, ca, nv, nv, ut, ut, ut, wy, wy
 
 Edges2 = [or, id, id, ca, nv, nv, ut, wy, mt, nv, az, ut, az, az, co, wy, co, ne, sd, mt, nd, sd, nm, co, nm, ok, ks, ne, ks, mo, ia, sd, ia, mn, nd, mn, tx, ok, tx, ar, mo, ks, mo, ne, ar, tn, ky, il, ia, il, wi, mn, wi, la, la, ms, tn, mo, ms, al, ga, nc, va, ky, va, wv, oh, in, il, in, wi, mi, ms, al, fl, ga, fl, sc, sc, va, wv, md, oh, md, pa, pa, mi, in, mi, mn, mi, de, pa, de, nj, ny, nj, ct, ny, ct, ri, ma, vt, ri, ma, vt, nh, nh, me];
 ```
+
+### Results
+```
+Each of the digit corresponds to a given color. For example a digit at the first place corresponds to color 1 whereas a digit at the 6th position corresponds to color 6.
+Color of wa is 1000
+Color of or is 0001
+Color of ca is 1000
+Color of nv is 0010
+Color of id is 0100
+Color of az is 0001
+Color of ut is 1000
+Color of mt is 1000
+Color of wy is 0010
+Color of co is 0100
+Color of nm is 0010
+Color of tx is 0100
+Color of ok is 1000
+Color of ks is 0010
+Color of ne is 1000
+Color of sd is 0001
+Color of nd is 0100
+Color of mn is 1000
+Color of ia is 0010
+Color of mo is 0100
+Color of ar is 0010
+Color of la is 1000
+Color of ms is 0100
+Color of al is 0010
+Color of ga is 0100
+Color of sc is 1000
+Color of ncf is 0010
+Color of fl is 1000
+Color of tn is 1000
+Color of ky is 0001
+Color of va is 0100
+Color of wv is 0010
+Color of il is 1000
+Color of ine is 0010
+Color of oh is 0100
+Color of pa is 0001
+Color of wi is 0100
+Color of mi is 1000
+Color of ny is 0010
+Color of vt is 1000
+Color of nh is 0010
+Color of me is 1000
+Color of ma is 0100
+Color of ri is 1000
+Color of ct is 0100
+Color of nj is 1000
+Color of de is 0100
+Color of md is 1000
+```
+
+
